@@ -67,5 +67,5 @@ class Proxy:
         return callback(self.get_response(param())) if callback else self.get_response(param())
 
 
-send = Proxy(conf.URL)
-send.get_response('/get-block', {"block_height": 1})
+# send = Proxy(conf.URL)
+# send.get_response('/get-block', {"block_height": 1})
